@@ -15,6 +15,15 @@
         {
             "name": "python3-pillow",
             "buildsystem": "simple",
+            "build-options": {
+                "arch": {
+                    "i386": {
+                        "env": {
+                            "MAX_CONCURRENCY": "1"
+                        }
+                    }
+                }
+            },
             "build-commands": [
                 "install -d ${FLATPAK_DEST}/lib/python3.5/site-packages/",
                 "python3 setup.py install --prefix=${FLATPAK_DEST}"
