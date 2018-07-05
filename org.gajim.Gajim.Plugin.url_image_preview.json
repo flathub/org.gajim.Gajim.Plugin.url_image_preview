@@ -45,7 +45,7 @@
                 {
                     "type": "file",
                     "path": "org.gajim.Gajim.Plugin.url_image_preview.metainfo.xml",
-                    "sha256": "3babf6d51115b18c8743c9a78ff7fbd66338c496376ae24a217085ae1543ef0b"
+                    "sha256": "3b11c6bcb9c349bb6b831031da6740f5da6fc1e925ab98c5c06a62d787ca26fc"
                 }
             ]
         }
