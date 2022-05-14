@@ -1,3 +1,4 @@
 {
+    "skip-icons-check": true,
     "end-of-life": "This extension has been integrated into org.gajim.Gajim"
 }
